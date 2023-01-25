@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e2b874f-011e-411d-90e6-b5d31b489d11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demowebshop/constants/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demowebshop/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demowebshop/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demowebshop/pages/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demowebshop/pages/UserAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demowebshop/utilities/ExcelUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demowebshop/utilities/PageUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demowebshop/utilities/RandomDataUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demowebshop/utilities/RobotUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demowebshop/utilities/TableUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demowebshop/utilities/TestHelperUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demowebshop/utilities/WaitUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demowebshop/automationcore/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demowebshop/automationcore/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demowebshop/testscript/HomeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demowebshop/testscript/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demowebshop/testscript/RegisterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demowebshop/testscript/UserAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
