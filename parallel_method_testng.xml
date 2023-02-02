@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel testing of Method" parallel="methods" thread-count="2">
+    <listeners>
+        <listener class-name="com.demowebshop.listeners.TestListener"/>
+    </listeners>
+    <test name="Parallel testing - Method" >
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.demowebshop.testscript.HomeTest"/>
+<!--            <class name="com.demowebshop.testscript.LoginTest"/>-->
+            <class name="com.demowebshop.testscript.RegisterTest"/>
+        </classes>
+    </test>
+</suite>

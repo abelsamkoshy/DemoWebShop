@@ -72,6 +72,10 @@ public class PageUtility {
         Actions action = new Actions(driver);
         action.moveToElement(target).build().perform();
     }
+    public String getElementText(WebElement element) {
+        String text = element.getText();
+        return text;
+    }
 
     public void DragAndDrop(WebDriver driver, WebElement source, WebElement destination) {
         Actions action = new Actions(driver);

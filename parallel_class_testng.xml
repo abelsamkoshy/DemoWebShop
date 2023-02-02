@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel testing of Classes">
+    <listeners>
+        <listener class-name="com.demowebshop.listeners.TestListener"/>
+    </listeners>
+    <test name="Parallel testing - Classes" parallel="classes" thread-count="3">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.demowebshop.testscript.HomeTest">
+                <methods>
+                    <include name="TC001_verifyHomePageTitle"/>
+                    <include name="TC_002_verifySubscribeEmailMessage"/>
+                </methods>
+            </class>
+            <class name="com.demowebshop.testscript.LoginTest">
+                <methods>
+                    <exclude name="TC001_verifyLoginPageTitle"/>
+                    <exclude name="TC002_verifyValidLogin"/>
+                    <include name="TC003_verifyInValidLoginErrorMessage"/>
+                </methods>
+            </class>
+            <class name="com.demowebshop.testscript.RegisterTest">
+                <methods>
+                    <include name="TC001_verifyUserRegistration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

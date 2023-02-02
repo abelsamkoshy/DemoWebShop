@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional Test Suite">
+    <listeners>
+        <listener class-name="com.demowebshop.listeners.TestListener"/>
+    </listeners>
+    <test name="Functional Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.demowebshop.testscript.HomeTest">
+                <methods>
+                    <exclude name="TC001_verifyHomePageTitle"/>
+                    <include name="TC_002_verifySubscribeEmailMessage"/>
+                </methods>
+            </class>
+            <class name="com.demowebshop.testscript.LoginTest">
+                <methods>
+                    <include name="TC001_verifyLoginPageTitle"/>
+                    <exclude name="TC002_verifyValidLogin"/>
+                    <exclude name="TC003_verifyInValidLoginErrorMessage"/>
+                </methods>
+            </class>
+            <class name="com.demowebshop.testscript.RegisterTest">
+                <methods>
+                    <exclude name="TC001_verifyUserRegistration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
